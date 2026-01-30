@@ -10,7 +10,7 @@ import CareersPage from './pages/CareersPage';
 import ContactPage from './pages/ContactPage';
 import EnrollmentPage from './pages/EnrollmentPage';
 import FAQPage from './pages/FAQPage';
-import HowitWorksPage from './pages/HowItWorksPage';
+import HowItWorksPage from './pages/HowItWorksPage'; // Corrected capitalization
 import NotFoundPage from './pages/NotFoundPage';
 import PlansPage from './pages/PlansPage';
 import PrivacyPage from './pages/PrivacyPage';
@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/enrollment" element={<EnrollmentPage />} />
         <Route path="/faq" element={<FAQPage />} />
-        <Route path="/how-it-works" element={<HowitWorksPage />} />
+        <Route path="/how-it-works" element={<HowItWorksPage />} />
         <Route path="/plans" element={<PlansPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="/support" element={<SupportPage />} />
