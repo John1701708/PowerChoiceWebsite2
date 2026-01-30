@@ -1,9 +1,7 @@
 // src/App.js
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Pages import
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import BillingPage from './pages/BillingPage';
@@ -12,7 +10,7 @@ import CareersPage from './pages/CareersPage';
 import ContactPage from './pages/ContactPage';
 import EnrollmentPage from './pages/EnrollmentPage';
 import FAQPage from './pages/FAQPage';
-import HowItWorksPage from './pages/HowItWorksPage';
+import HowitWorksPage from './pages/HowitWorksPage';
 import NotFoundPage from './pages/NotFoundPage';
 import PlansPage from './pages/PlansPage';
 import PrivacyPage from './pages/PrivacyPage';
@@ -34,7 +32,7 @@ const App = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/enrollment" element={<EnrollmentPage />} />
         <Route path="/faq" element={<FAQPage />} />
-        <Route path="/how-it-works" element={<HowItWorksPage />} />
+        <Route path="/how-it-works" element={<HowitWorksPage />} />
         <Route path="/plans" element={<PlansPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="/support" element={<SupportPage />} />
