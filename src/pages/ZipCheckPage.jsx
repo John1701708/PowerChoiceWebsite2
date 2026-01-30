@@ -6,8 +6,9 @@ const ZipCheckPage = () => {
   const [result, setResult] = useState('');
 
   const handleCheck = () => {
-    if (zipAvailability.includes(zip)) {
-      setResult("Yes! Service is available in your area.");
+    const resultObj = zipAvailability.checkAvailability(zip);
+    if (resultObj.available) {
+      setResult(`Yes! Service is available in your area. Provider: ${resultObj.provider}`);
     } else {
       setResult("Sorry, service is not available in your ZIP code yet.");
     }
