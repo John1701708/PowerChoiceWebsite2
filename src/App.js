@@ -10,7 +10,7 @@ import CareersPage from './pages/CareersPage';
 import ContactPage from './pages/ContactPage';
 import EnrollmentPage from './pages/EnrollmentPage';
 import FAQPage from './pages/FAQPage';
-import HowitWorksPage from './pages/HowitWorksPage';
+import HowitWorksPage from './pages/HowItWorksPage';
 import NotFoundPage from './pages/NotFoundPage';
 import PlansPage from './pages/PlansPage';
 import PrivacyPage from './pages/PrivacyPage';
@@ -18,7 +18,7 @@ import SupportPage from './pages/SupportPage';
 import TermsPage from './pages/TermsPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import ZipCheckPage from './pages/ZipCheckPage';
-import FeaturesPage from './pages/FeaturesPage'; // last missing page
+import FeaturesPage from './pages/FeaturesPage';
 
 const App = () => {
   return (
